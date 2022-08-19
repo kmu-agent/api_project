@@ -9,6 +9,7 @@ setup(
     author= "karns",
     author_email= "injection.dll@gmail.com",
     packages = ["my_api"],
+    zip_safe = False,
     install_requires = [
         "requests"
     ]
